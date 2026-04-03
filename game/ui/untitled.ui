@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MenuStackedWidget</class>
+ <widget class="QStackedWidget" name="MenuStackedWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>832</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>nim-game</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../assets/icon/Icon.jpg</normaloff>../assets/icon/Icon.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="Menu">
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/Menu/Background.jpg);
+background-repeat: no-repeat;
+background-position: center;</string>
+   </property>
+   <widget class="QPushButton" name="ButtonStart">
+    <property name="geometry">
+     <rect>
+      <x>266</x>
+      <y>600</y>
+      <width>300</width>
+      <height>140</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/Menu/Start.png);
+background-repeat: no-repeat;
+background-position: center;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="Game">
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/Game/GameBackGround.jpg);
+background-repeat: no-repeat;
+background-position: center;</string>
+   </property>
+   <widget class="QLabel" name="StoneCount">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>710</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Nirmala Text Semilight</family>
+      <pointsize>72</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(&quot;&quot;);
+color: rgb(163, 152, 31);</string>
+    </property>
+    <property name="text">
+     <string>15</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonTakeStone">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>460</y>
+      <width>361</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/Game/TakeStone.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PlayerNumber">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>170</y>
+      <width>51</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Nirmala Text Semilight</family>
+      <pointsize>72</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(&quot;&quot;);
+color: rgb(163, 152, 31);</string>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Select1Stone">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>330</y>
+      <width>91</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/Game/Select1Stone.png);
+background-repeat: no-repeat;
+background-position: center;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Select2Stone">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>330</y>
+      <width>91</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/Game/Select2Stone.png);
+background-repeat: no-repeat;
+background-position: center;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Select3Stone">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>330</y>
+      <width>91</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/Game/Select3Stone.png);
+background-repeat: no-repeat;
+background-position: center;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="LoseScreen">
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/LoseScreen/LoseScreen.jpg);
+background-repeat: no-repeat;
+background-position: center;</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="WinScreen">
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/WinScreen/WinScreen.jpg);
+background-repeat: no-repeat;
+background-position: center;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

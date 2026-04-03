@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="Menu">
+    <file>Start.png</file>
+    <file>Background.jpg</file>
+  </qresource>
+  <qresource prefix="WinScreen">
+    <file>WinScreen.jpg</file>
+  </qresource>
+  <qresource prefix="Game">
+    <file>Select2Stone.png</file>
+    <file>Select1Stone.png</file>
+    <file>Select3Stone.png</file>
+    <file>ViewPlayerStep.png</file>
+    <file>TakeStone.png</file>
+    <file>GameBackGround.jpg</file>
+  </qresource>
+  <qresource prefix="LoseScreen">
+    <file>LoseScreen.jpg</file>
+  </qresource>
+</RCC>
