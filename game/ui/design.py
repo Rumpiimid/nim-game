@@ -106,7 +106,4 @@ class Ui_MenuStackedWidget(object):
         MenuStackedWidget.setWindowTitle(_translate("MenuStackedWidget", "nim-game"))
         self.StoneCount.setText(_translate("MenuStackedWidget", "15"))
         self.PlayerNumber.setText(_translate("MenuStackedWidget", "1"))
-
-
-import ui.resources_rc
 import resources_rc
