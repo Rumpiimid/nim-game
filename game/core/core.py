@@ -56,6 +56,6 @@ class Window(QtWidgets.QStackedWidget, Ui_MenuStackedWidget):
         """Проверка на победу/поражение"""
         if self.stones <= 0:
             if self.current_player == 2:
-                self.setCurrentIndex(2)  # LoseScreen
+                self.setCurrentIndex(3)
             else:
-                self.setCurrentIndex(3)  # WinScreen
+                self.setCurrentIndex(2)

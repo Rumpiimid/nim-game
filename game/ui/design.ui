@@ -176,14 +176,14 @@ background-position: center;</string>
   </widget>
   <widget class="QWidget" name="LoseScreen">
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/LoseScreen/LoseScreen.jpg);
+    <string notr="true">background-image: url(:/WinScreenPlayer2/LoseScreen.jpg);
 background-repeat: no-repeat;
 background-position: center;</string>
    </property>
   </widget>
   <widget class="QWidget" name="WinScreen">
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/WinScreen/WinScreen.jpg);
+    <string notr="true">background-image: url(:/WinScreenPlayer1/WinScreen.jpg);
 background-repeat: no-repeat;
 background-position: center;</string>
    </property>

@@ -3,7 +3,7 @@
     <file>Start.png</file>
     <file>Background.jpg</file>
   </qresource>
-  <qresource prefix="WinScreen">
+  <qresource prefix="WinScreenPlayer1">
     <file>WinScreen.jpg</file>
   </qresource>
   <qresource prefix="Game">
@@ -14,7 +14,7 @@
     <file>TakeStone.png</file>
     <file>GameBackGround.jpg</file>
   </qresource>
-  <qresource prefix="LoseScreen">
+  <qresource prefix="WinScreenPlayer2">
     <file>LoseScreen.jpg</file>
   </qresource>
 </RCC>
